@@ -101,12 +101,12 @@ nav ul li a{
     margin-bottom: 100px;
     opacity: 1;
     transition: opacity .3s all ease-in-out;
+    cursor: pointer;
 }
 
 .banner_content button:hover {
-    border-color: #ffffff;
-   /* background: #15a4fa; */
-
+    background: #15a4fa;
+    color: #fff;
 
 } 
 
@@ -114,9 +114,6 @@ nav ul li a{
     text-decoration: none;
     color: #fff;
     font-size: 18px;
-}
-.banner_content button a:hover{
-    color: #15a4fa;
 }
 
 .banner_content i {
