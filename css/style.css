@@ -2,9 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
-h1, h2, h3, h4, h5, h5, h6, p, ul{
-    margin: 0;
-    padding: 0;
+
+h1, h2, h3, h4, h5, h5, h6, p, ul {
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
@@ -28,27 +29,30 @@ header {
 }
 
 nav {
-
 }
 
-nav ul{
+nav ul {
     display: flex;
     justify-content: space-between;
     width: 25%;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     margin-right: 15px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 15px;
-    color: rgb(65 79 105);
+    color: rgb(65, 79, 105);
     font-weight: 700;
 }
+
 .banner_container {
 }
+
 .banner {
     background-image: url("../images/banner-bg.png");
     width: 100vw;
@@ -68,6 +72,7 @@ nav ul li a{
     font-size: 120px;
     color: rgb(255, 255, 255);
     padding-top: 100px;
+    font-weight: 500;
 }
 
 .banner_content span {
@@ -78,8 +83,7 @@ nav ul li a{
     margin: 10px;
 }
 
-.banner_content span a{
-    
+.banner_content span a {
 }
 
 .banner_content p {
@@ -89,42 +93,36 @@ nav ul li a{
     padding-bottom: 30px;
 }
 
-.banner_content h1 {
-}
-
 .banner_content button {
     padding: 15px 30px;
-    border: none;
     background: none;
-    border: 1px solid #15a4fa;
+    border: 1px solid rgb(21, 164, 250);
     border-radius: 5px;
     margin-bottom: 100px;
     opacity: 1;
-    transition: opacity .3s all ease-in-out;
     cursor: pointer;
 }
 
 .banner_content button:hover {
-    background: #15a4fa;
-    color: #fff;
-
-} 
+    background: rgb(21, 164, 250);
+    color: rgb(255, 255, 255);
+}
 
 .banner_content button a {
     text-decoration: none;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 18px;
 }
 
 .banner_content i {
     font-size: 22px;
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     display: block;
     margin-top: 50px;
 }
 
 .short_view {
-    background-color: #f6f9f9;
+    background-color: rgb(246, 249, 249);
 }
 
 .view_wrapper {
@@ -136,12 +134,12 @@ nav ul li a{
 
 .short_view h1 {
     font-size: 40px;
-    color: #2d3950;
+    color: rgb(45, 57, 80);
     font-weight: 400;
 }
 
 .short_view p {
-    color: #999999;
+    color: rgb(153, 153, 153);
     margin: auto;
     font-size: 20px;
     padding: 20px;
@@ -171,12 +169,12 @@ nav ul li a{
 
 .content_item h5 {
     font-size: 22px;
-    color: #2d3950;
+    color: rgb(45, 57, 80);
     padding: 15px;
     font-weight: 500;
 }
 
 .content_item p {
-    color: #999999;
+    color: rgb(153, 153, 153);
     font-size: 15px;
 }
