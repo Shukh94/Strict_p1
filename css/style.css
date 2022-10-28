@@ -49,6 +49,9 @@ nav ul li a {
     color: rgb(65, 79, 105);
     font-weight: 700;
 }
+nav ul li a:hover{
+    color: rgb(21, 164, 250);
+}
 
 .banner_container {
 }
