@@ -50,6 +50,8 @@ nav ul li a {
     font-weight: 700;
 }
 nav ul li a:hover{
+    border: 1px solid rgb(21, 164, 250);
+    padding: 2px;
     color: rgb(21, 164, 250);
 }
 
